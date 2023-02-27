@@ -3,7 +3,7 @@
 #SBATCH -t 00:40:00
 #SBATCH -N 1
 #SBATCH -n 16
-#SBATCH --gres=gpu:1
+#SBATCH --gres=gpu:2
 #SBATCH --constraint=nvlink
 #SBATCH -A aiams
 #SBATCH -p a100
